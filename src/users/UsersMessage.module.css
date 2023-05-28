@@ -1,0 +1,108 @@
+.friendMessage {
+    /*font-family: 'Montserrat';*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*font-size: 16px;*/
+    /*line-height: 20px;*/
+    /*color: #000000;*/
+
+}
+
+.messageWrapper {
+    /*display: grid;*/
+    /*justify-content: space-between;*/
+}
+
+.messageAreaWrapper {
+    height: 750px;
+
+}
+
+.right-panel-wrapper {
+    width: 200px;
+    background-color: green;
+}
+
+.content-wrapper {
+    /*width: 250px;*/
+    width: calc(100% - 400px);
+    padding: 0 30px;
+}
+
+.friendMessage {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: start;
+    border: solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding-left: 5px;
+}
+
+.userMessage {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: end;
+    border: solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding-right: 5px;
+}
+
+/*.friendImageAndText img {*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*}*/
+
+.friendText {
+    /*background-color: #F5F7FB;*/
+    /*border-radius: 10px;*/
+    /*padding: 10px;*/
+    /*margin-left: 20px;*/
+    /*position: relative;*/
+    /*box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);*/
+}
+
+.friendText:after {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*width: 0;*/
+    /*bottom: 0;*/
+    /*left: -12px;*/
+    /*height: 0;*/
+    /*border-bottom: 20px solid #F5F7FB;*/
+    /*border-right: 20px solid transparent;*/
+}
+
+.friendName {
+    /*font-family: 'Montserrat';*/
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
+    /*font-size: 16px;*/
+    /*line-height: 20px;*/
+    /*color: #000000;*/
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: start;*/
+    /*padding: 0 10px;*/
+    /*width: 29px;*/
+    /*height: 12px;*/
+
+
+
+    /*font-family: 'Montserrat';*/
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
+    /*font-size: 10px;*/
+    /*line-height: 12px;*/
+
+    /*color: #000000;*/
+
+}
